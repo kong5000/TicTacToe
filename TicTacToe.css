@@ -1,0 +1,17 @@
+:root {
+    --colNum: 3;
+}
+
+.grid-container{
+    grid-template-columns:  repeat(var(--colNum), 60px);
+    display: grid;
+    text-align: center;
+}
+
+.grid-item{
+    border-style: solid;
+    border-color: black;
+    padding: 20px 20px 20px 20px;
+    background-color: 'blue';
+    text-align: center;
+}
